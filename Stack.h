@@ -17,9 +17,10 @@ private:
     }
 
     void Reduce(){
-        T* arr = new T[(_size + 1)/ 2];
+        if (_size <= 100) return; 
+        _size = _top + 1;
+        T* arr = new T[_size];
         for (size_t i = 0; i < _size; i++) arr[i] = _array[i];
-        _size = (_size + 1) / 2;
         delete [] _array;
         _array = arr;
     }
@@ -47,6 +48,7 @@ public:
             _isEmpty = true;
             return _array[_top];
         }
+        if (_top <= _size / 2) Reduce();
         return _array[_top--];
     }
 
