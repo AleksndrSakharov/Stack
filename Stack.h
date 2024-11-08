@@ -15,6 +15,14 @@ private:
         delete [] _array;
         _array = arr;
     }
+
+    void Reduce(){
+        T* arr = new T[(_size + 1)/ 2];
+        for (size_t i = 0; i < _size; i++) arr[i] = _array[i];
+        _size = (_size + 1) / 2;
+        delete [] _array;
+        _array = arr;
+    }
 public:
     Stack (size_t size) : _size(size), _top(0), _array(new T[size]){
         
