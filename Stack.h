@@ -57,6 +57,14 @@ public:
         return _array[_top];
     }
     
+    friend ostream& operator<<(ostream& os, const Stack& s){
+        if (s._isEmpty) throw;
+        for (size_t i = 0; i < s._top; i++){
+            os << s._array[i] << " ";
+        }
+        return os;
+    }
+
     ~Stack(){
         delete [] _array;
     }
