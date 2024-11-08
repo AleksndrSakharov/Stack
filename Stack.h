@@ -23,7 +23,7 @@ public:
         return _isEmpty;
     }
     inline bool isFull() const{
-        return _top == _size - 1;
+        return (_top == _size - 1 && !_isEmpty);
     }
     
     void Push(const T& elem){
