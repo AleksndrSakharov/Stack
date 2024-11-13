@@ -42,19 +42,20 @@ public:
         _array[_top] = elem;
     }
 
-    const T* Pop(){
+    const T* Pop() {
         if (_isEmpty) return nullptr;
         if (_top == 0) {
             _isEmpty = true;
-            return _array[_top];
+            return &_array[_top];
         }
         if (_top <= _size / 2) Reduce();
-        return _array[_top--];
+        return &_array[_top--];
     }
 
-    const T& Check() const{
-        if (_isEmpty) throw;
-        return _array[_top];
+
+    const T* Check() const{
+        if (_isEmpty) nullptr;
+        return &_array[_top];
     }
     
     friend ostream& operator<<(ostream& os, const Stack& s){
