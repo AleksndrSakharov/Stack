@@ -42,8 +42,8 @@ public:
         _array[_top] = elem;
     }
 
-    const T& Pop(){
-        if (_isEmpty) throw;
+    const T* Pop(){
+        if (_isEmpty) return nullptr;
         if (_top == 0) {
             _isEmpty = true;
             return _array[_top];
