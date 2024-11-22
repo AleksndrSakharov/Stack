@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/stack.dir/ExpressionChecker.cpp.o"
+  "CMakeFiles/stack.dir/ExpressionChecker.cpp.o.d"
   "CMakeFiles/stack.dir/main.cpp.o"
   "CMakeFiles/stack.dir/main.cpp.o.d"
   "stack"

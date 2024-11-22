@@ -1,6 +1,7 @@
 #include "ExpressionChecker.h"
 
 int main(){
-    cout << "ddd";
+    ExpressionChecker str;
+    cout << (str.CheckBrackets("(") ? "true" : "false");
     return 0;
 }

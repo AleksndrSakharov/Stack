@@ -1,5 +1,5 @@
-CMakeFiles/stack.dir/main.cpp.o: \
- /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/main.cpp \
+CMakeFiles/stack.dir/ExpressionChecker.cpp.o: \
+ /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/ExpressionChecker.cpp \
  /usr/include/stdc-predef.h \
  /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/ExpressionChecker.h \
  /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/Stack.h \

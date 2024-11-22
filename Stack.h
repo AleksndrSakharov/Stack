@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 template <typename T>
 class Stack
@@ -27,6 +28,9 @@ private:
         _array = arr;
     }
 public:
+    Stack () : _size(10), _top(0), _array(new T[10]){
+        
+    }
     Stack (size_t size) : _size(size), _top(0), _array(new T[size]){
         
     }// Push Pop IsEmpty IsFull Expand Reduce

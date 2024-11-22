@@ -129,6 +129,30 @@ stack/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
 .PHONY : stack/fast
 
+ExpressionChecker.o: ExpressionChecker.cpp.o
+.PHONY : ExpressionChecker.o
+
+# target to build an object file
+ExpressionChecker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/ExpressionChecker.cpp.o
+.PHONY : ExpressionChecker.cpp.o
+
+ExpressionChecker.i: ExpressionChecker.cpp.i
+.PHONY : ExpressionChecker.i
+
+# target to preprocess a source file
+ExpressionChecker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/ExpressionChecker.cpp.i
+.PHONY : ExpressionChecker.cpp.i
+
+ExpressionChecker.s: ExpressionChecker.cpp.s
+.PHONY : ExpressionChecker.s
+
+# target to generate assembly for a file
+ExpressionChecker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/ExpressionChecker.cpp.s
+.PHONY : ExpressionChecker.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... stack"
+	@echo "... ExpressionChecker.o"
+	@echo "... ExpressionChecker.i"
+	@echo "... ExpressionChecker.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
