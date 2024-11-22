@@ -3,6 +3,7 @@
 
 CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
+  ../Formula.h \
   ../Stack.h \
   /usr/include/c++/12/iostream \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -181,10 +182,23 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/12/bits/basic_ios.tcc \
   /usr/include/c++/12/bits/ostream.tcc \
   /usr/include/c++/12/istream \
-  /usr/include/c++/12/bits/istream.tcc
+  /usr/include/c++/12/bits/istream.tcc \
+  /usr/include/c++/12/vector \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/vector.tcc
 
+
+/usr/include/c++/12/bits/stl_bvector.h:
+
+/usr/include/c++/12/bits/stl_vector.h:
+
+/usr/include/c++/12/bits/stl_uninitialized.h:
 
 /usr/include/c++/12/bits/basic_ios.tcc:
+
+/usr/include/c++/12/vector:
 
 /usr/include/c++/12/bits/streambuf_iterator.h:
 
@@ -252,6 +266,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/12/bits/alloc_traits.h:
 
+/usr/include/c++/12/ext/alloc_traits.h:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/12/bits/hash_bytes.h:
@@ -310,8 +326,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
 
-/usr/include/c++/12/ext/alloc_traits.h:
-
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 ../Stack.h:
@@ -319,6 +333,12 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/c++/12/ios:
+
+/usr/include/c++/12/bits/cxxabi_forced.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
+
+/usr/include/c++/12/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/12/type_traits:
 
@@ -333,18 +353,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/12/clocale:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/12/bits/locale_classes.tcc:
-
-/usr/include/c++/12/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/12/bits/ptr_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -383,6 +391,18 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 ../main.cpp:
 
 /usr/include/c++/12/ostream:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/c++/12/bits/locale_classes.tcc:
+
+/usr/include/c++/12/bits/exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/12/bits/ptr_traits.h:
 
 /usr/include/c++/12/istream:
 
@@ -494,6 +514,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
+../Formula.h:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
@@ -507,12 +529,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/12/bits/cpp_type_traits.h:
 
 /usr/include/c++/12/bits/new_allocator.h:
-
-/usr/include/c++/12/bits/cxxabi_forced.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
-
-/usr/include/c++/12/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_funcs.h:
 
@@ -531,6 +547,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/c++/12/bits/refwrap.h:
+
+/usr/include/c++/12/bits/vector.tcc:
 
 /usr/include/c++/12/bits/predefined_ops.h:
 

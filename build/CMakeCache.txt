@@ -194,15 +194,6 @@ Stack_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Stack_SOURCE_DIR:STATIC=/home/s23380346@unn.global/Sakharov/3823B1FI3/Stack
 
-//Value Computed by CMake
-laba_5_Matrix_BINARY_DIR:STATIC=/home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/build
-
-//Value Computed by CMake
-laba_5_Matrix_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-laba_5_Matrix_SOURCE_DIR:STATIC=/home/s23380346@unn.global/Sakharov/3823B1FI3/Stack
-
 
 ########################
 # INTERNAL cache entries

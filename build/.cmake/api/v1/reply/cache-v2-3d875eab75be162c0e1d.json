@@ -1036,42 +1036,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/s23380346@unn.global/Sakharov/3823B1FI3/Stack"
-		},
-		{
-			"name" : "laba_5_Matrix_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/build"
-		},
-		{
-			"name" : "laba_5_Matrix_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "laba_5_Matrix_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/s23380346@unn.global/Sakharov/3823B1FI3/Stack"
 		}
 	],
 	"kind" : "cache",

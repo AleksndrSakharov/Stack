@@ -1,6 +1,7 @@
 CMakeFiles/stack.dir/main.cpp.o: \
  /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/main.cpp \
  /usr/include/stdc-predef.h \
+ /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/Formula.h \
  /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/Stack.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -147,4 +148,8 @@ CMakeFiles/stack.dir/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc
