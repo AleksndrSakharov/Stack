@@ -4,6 +4,7 @@
 CMakeFiles/stack.dir/ExpressionChecker.cpp.o: ../ExpressionChecker.cpp \
   /usr/include/stdc-predef.h \
   ../ExpressionChecker.h \
+  ../Table.h \
   ../Stack.h \
   /usr/include/c++/12/iostream \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -187,10 +188,21 @@ CMakeFiles/stack.dir/ExpressionChecker.cpp.o: ../ExpressionChecker.cpp \
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
-  /usr/include/c++/12/bits/vector.tcc
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/iomanip \
+  /usr/include/c++/12/locale \
+  /usr/include/c++/12/bits/locale_facets_nonio.h \
+  /usr/include/c++/12/ctime \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/12/bits/codecvt.h \
+  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/12/bits/locale_conv.h
 
 CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
+  ../Table.h \
   ../ExpressionChecker.h \
   ../Stack.h \
   /usr/include/c++/12/iostream \
@@ -375,16 +387,40 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
-  /usr/include/c++/12/bits/vector.tcc
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/iomanip \
+  /usr/include/c++/12/locale \
+  /usr/include/c++/12/bits/locale_facets_nonio.h \
+  /usr/include/c++/12/ctime \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/12/bits/codecvt.h \
+  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/12/bits/locale_conv.h
 
 
 ../main.cpp:
+
+/usr/include/c++/12/bits/locale_conv.h:
+
+/usr/include/c++/12/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/12/bits/codecvt.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h:
+
+/usr/include/c++/12/bits/locale_facets_nonio.h:
 
 /usr/include/c++/12/bits/stl_bvector.h:
 
 /usr/include/c++/12/bits/stl_vector.h:
 
 /usr/include/c++/12/bits/stl_uninitialized.h:
+
+/usr/include/c++/12/ctime:
 
 /usr/include/c++/12/bits/basic_ios.tcc:
 
@@ -432,6 +468,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
+/usr/include/c++/12/locale:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
@@ -457,6 +495,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/12/bits/alloc_traits.h:
 
 /usr/include/c++/12/ext/alloc_traits.h:
+
+/usr/include/c++/12/iomanip:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -512,6 +552,10 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
 
+/usr/include/c++/12/bits/basic_string.h:
+
+/usr/include/c++/12/ext/type_traits.h:
+
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
@@ -538,25 +582,19 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/12/bits/stringfwd.h:
 
-/usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
 /usr/include/c++/12/bits/stl_pair.h:
 
 /usr/include/features.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
 ../Stack.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/c++/12/ios:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
 /usr/include/c++/12/bits/cxxabi_init_exception.h:
 
@@ -576,6 +614,12 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
+/usr/include/c++/12/cwchar:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h:
+
+/usr/include/wchar.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
@@ -589,14 +633,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/12/bits/ptr_traits.h:
 
 /usr/include/c++/12/ostream:
-
-/usr/include/c++/12/istream:
-
-/usr/include/c++/12/stdexcept:
-
-/usr/include/c++/12/cctype:
-
-/usr/include/features-time64.h:
 
 /usr/include/linux/errno.h:
 
@@ -614,11 +650,19 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/c++/12/cwchar:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/wchar.h:
+/usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h:
+
+/usr/include/c++/12/istream:
+
+/usr/include/c++/12/stdexcept:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/12/cctype:
 
 /usr/include/c++/12/bits/localefwd.h:
 
@@ -635,6 +679,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
+
+/usr/include/libintl.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -704,6 +750,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
+../Table.h:
+
 /usr/include/c++/12/bits/allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
@@ -749,7 +797,3 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/time.h:
 
 /usr/include/c++/12/bits/range_access.h:
-
-/usr/include/c++/12/ext/type_traits.h:
-
-/usr/include/c++/12/bits/basic_string.h:

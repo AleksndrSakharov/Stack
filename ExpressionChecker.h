@@ -1,5 +1,5 @@
 #pragma once
-#include "Stack.h"
+#include "Table.h"
 const int MaxLength = 255;
 
 class ExpressionChecker

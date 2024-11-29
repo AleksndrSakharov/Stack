@@ -2,6 +2,7 @@ CMakeFiles/stack.dir/ExpressionChecker.cpp.o: \
  /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/ExpressionChecker.cpp \
  /usr/include/stdc-predef.h \
  /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/ExpressionChecker.h \
+ /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/Table.h \
  /home/s23380346@unn.global/Sakharov/3823B1FI3/Stack/Stack.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -152,4 +153,11 @@ CMakeFiles/stack.dir/ExpressionChecker.cpp.o: \
  /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/iomanip \
+ /usr/include/c++/12/locale \
+ /usr/include/c++/12/bits/locale_facets_nonio.h /usr/include/c++/12/ctime \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/c++/12/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/12/bits/locale_conv.h
