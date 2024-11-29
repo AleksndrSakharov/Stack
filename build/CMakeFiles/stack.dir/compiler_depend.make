@@ -202,8 +202,8 @@ CMakeFiles/stack.dir/ExpressionChecker.cpp.o: ../ExpressionChecker.cpp \
 
 CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
-  ../Table.h \
   ../ExpressionChecker.h \
+  ../Table.h \
   ../Stack.h \
   /usr/include/c++/12/iostream \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \

@@ -36,11 +36,13 @@ public:
         cout << "+";
         for (size_t i = 0; i < flag * 2; i++){ if(i == flag)cout <<"+"; cout << "-";}
         cout << "+\n";
-        cout << "|" << setw(flag) << _title1 << "|" << setw(flag) << _title2;
+        cout << "|" << setw(flag) << _title1 << "|" << setw(flag) << _title2 << "|";
+        cout << "\n+";
+        for (size_t i = 0; i < flag * 2; i++){ if(i == flag)cout <<"+"; cout << "-";}
+        cout << "+\n";
         for (size_t i = 0; i < _count; i++){
-            cout << "|" << setw(flag) << _col1[i] << "|" << setw(flag) << _col2[i];
+            cout << "|" << setw(flag) << _col1[i] << "|" << setw(flag) << _col2[i] << "|";
         }
-        cout << "\n";
         cout << "+";
         for (size_t i = 0; i < flag * 2; i++){ if(i == flag)cout <<"+"; cout << "-";}
         cout << "+\n";
