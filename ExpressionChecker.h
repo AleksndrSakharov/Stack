@@ -12,7 +12,7 @@ public:
             str.Push(i);
         }
         if (exp[i] == ')') {
-            if (str.IsEmpty()){
+            if (str.isEmpty()){
                 t.AppendRow(nullopt, i);
             }
             else{
@@ -20,13 +20,13 @@ public:
             }
         }
     }
-    if(!str.IsEmpty()){
-        while (!str.IsEmpty())
+    if(!str.isEmpty()){
+        while (!str.isEmpty())
         {
             t.AppendRow(str.Pop(), nullopt);
         }
     }
     t.Print();
-    return str.IsEmpty();
+    return str.isEmpty();
 }
 };

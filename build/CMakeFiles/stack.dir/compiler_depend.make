@@ -21,6 +21,7 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
+  /usr/include/c++/12/pstl/pstl_config.h \
   /usr/include/c++/12/ostream \
   /usr/include/c++/12/ios \
   /usr/include/c++/12/iosfwd \
@@ -135,6 +136,9 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/12/ext/alloc_traits.h \
   /usr/include/c++/12/bits/alloc_traits.h \
   /usr/include/c++/12/bits/stl_construct.h \
+  /usr/include/c++/12/string_view \
+  /usr/include/c++/12/bits/functional_hash.h \
+  /usr/include/c++/12/bits/string_view.tcc \
   /usr/include/c++/12/ext/string_conversions.h \
   /usr/include/c++/12/cstdlib \
   /usr/include/stdlib.h \
@@ -166,7 +170,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
-  /usr/include/c++/12/bits/functional_hash.h \
   /usr/include/c++/12/bits/basic_string.tcc \
   /usr/include/c++/12/bits/locale_classes.tcc \
   /usr/include/c++/12/system_error \
@@ -201,8 +204,17 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
   /usr/include/libintl.h \
   /usr/include/c++/12/bits/codecvt.h \
   /usr/include/c++/12/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/12/bits/locale_conv.h
+  /usr/include/c++/12/bits/locale_conv.h \
+  /usr/include/c++/12/bits/quoted_string.h \
+  /usr/include/c++/12/sstream \
+  /usr/include/c++/12/bits/sstream.tcc \
+  /usr/include/c++/12/optional \
+  /usr/include/c++/12/bits/enable_special_members.h
 
+
+/usr/include/c++/12/bits/enable_special_members.h:
+
+/usr/include/c++/12/sstream:
 
 /usr/include/c++/12/bits/locale_conv.h:
 
@@ -262,10 +274,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/c++/12/bits/functional_hash.h:
-
-/usr/include/stdio.h:
-
 /usr/include/alloca.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
@@ -284,13 +292,21 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/include/stdlib.h:
+/usr/include/c++/12/bits/sstream.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/c++/12/cstdlib:
 
 /usr/include/c++/12/ext/string_conversions.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/c++/12/bits/string_view.tcc:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/12/bits/functional_hash.h:
 
 /usr/include/c++/12/bits/stl_construct.h:
 
@@ -309,8 +325,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
-
-/usr/include/c++/12/cstdint:
 
 /usr/include/c++/12/bits/char_traits.h:
 
@@ -358,6 +372,10 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/12/ext/type_traits.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 ../Stack.h:
@@ -378,9 +396,7 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/features.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/usr/include/c++/12/bits/quoted_string.h:
 
 /usr/include/c++/12/new:
 
@@ -408,19 +424,25 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 ../main.cpp:
 
+/usr/include/c++/12/bits/range_access.h:
+
+/usr/include/time.h:
+
 /usr/include/c++/12/ostream:
 
 /usr/include/c++/12/bits/move.h:
 
 /usr/include/stdc-predef.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/12/clocale:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
+
+/usr/include/c++/12/cstdint:
 
 /usr/include/c++/12/cwchar:
 
@@ -440,6 +462,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/12/bits/ptr_traits.h:
 
+/usr/include/pthread.h:
+
 /usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -452,9 +476,9 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -465,6 +489,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/12/istream:
 
 /usr/include/c++/12/stdexcept:
+
+/usr/include/c++/12/string_view:
 
 /usr/include/features-time64.h:
 
@@ -491,8 +517,6 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h:
-
-/usr/include/pthread.h:
 
 /usr/include/c++/12/iostream:
 
@@ -554,6 +578,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
+/usr/include/c++/12/optional:
+
 ../Table.h:
 
 /usr/include/c++/12/bits/allocator.h:
@@ -580,6 +606,8 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/12/bits/stl_function.h:
 
+/usr/include/c++/12/pstl/pstl_config.h:
+
 /usr/include/c++/12/ext/numeric_traits.h:
 
 /usr/include/c++/12/cerrno:
@@ -597,7 +625,3 @@ CMakeFiles/stack.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/12/bits/functexcept.h:
 
 /usr/include/c++/12/bits/invoke.h:
-
-/usr/include/time.h:
-
-/usr/include/c++/12/bits/range_access.h:
