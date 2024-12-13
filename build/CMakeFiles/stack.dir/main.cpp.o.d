@@ -160,4 +160,4 @@ CMakeFiles/stack.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
- /usr/include/c++/12/bits/locale_conv.h
+ /usr/include/c++/12/bits/locale_conv.h /usr/include/c++/12/optional
